@@ -1,4 +1,12 @@
 public abstract class Shapes {
+    public String getFigureType() {
+        return figureType;
+    }
+
+    public void setFigureType(String figureType) {
+        this.figureType = figureType;
+    }
+
     private String figureType;
     private double area;
 
