@@ -11,7 +11,7 @@ public class InheritanceProgram {
 
         for(Shapes i:figury){
             i.areaCalculation();
-            System.out.println("The area of "+i.getFigureType()+" is "+i.getArea()+".");
+            System.out.println("The area of "+i.getFigureType()+" is "+i.getArea());
         }
     }
 }
